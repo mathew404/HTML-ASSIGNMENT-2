@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Meta information for character set and responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Menu - PIZZA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body style="background-image: url('image/pizza\ background\ 4.jpg'); background-size: cover; background-position: center;">
+<!-- Navigation bar -->
+ <header>
+ <nav>
+<ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="menu.html">MENU</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+ </ul>
+</nav>
+</header>
+<!-- Main content area -->
+ <main>
+<div class="content">
+ <h1>Our Menu</h1>
+<hr>
+<form class="menu-form">
+<h2>Pizza Menu</h2>
+ <label for="pizza-type">Pizza Type:</label>
+ <select id="pizza-type" name="pizza-type" required>
+                <option value="Margarita">Margarita Pizza</option>
+                <option value="Pepperoni">Pepperoni Pizza</option>
+                <option value="Hawaian">Hawaian Pizza</option>
+                <option value="BBQ">BBQ chicken Pizza</option>
+                <option value="Supreme">Supreme Pizza</option>
+                <option value="Neapolitan">BBQ chicken Pizza</option>
+                <option value="Sicilian">Sicilian Pizza</option>              
+</select>
+<!-- Input for selecting quantity -->
+<label for="quantity">Quantity:</label>
+ <input type="number" id="quantity" name="quantity" min="1" value="1" required>  
+ <h2>Add Toppings</h2>
+ <!-- Checkbox options for additional toppings -->
+<div class="toppings">
+<label class="topping">
+<input type="checkbox" name="topping" value="Pepperoni"> Pepperoni ($2.00)
+      </label>
+<label class="topping">
+<input type="checkbox" name="topping" value="Onions"> Onions ($0.90)
+       </label>
+<label class="topping">
+<input type="checkbox" name="topping" value="Mushrooms"> Mushrooms ($1.00)
+        </label>
+<label class="topping">
+<input type="checkbox" name="topping" value="Garlic"> Garlic ($0.70)
+         </label>
+<label class="topping">
+<input type="checkbox" name="topping" value="Black Olives"> Black Olives ($1.25)
+         </label>
+</div>
+ <!-- Submit button for the form -->
+ <button type="submit">Add to Order</button>
+     </form>
+    </div>
+</main>
+<!-- Footer section -->
+    <footer>
+        <p>&copy; 2024 PIZZARIUM. All rights reserved.</p>
+    </footer>
+</body>
+</html>

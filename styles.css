@@ -1,0 +1,135 @@
+
+/* Main body styling */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    overflow: auto;
+    background: #e9d6cd;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+/* Navigation bar styling */
+nav {
+    width: 100%;
+    background: #bf8b57;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Navigation links styling */
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+/* Main content styling */
+.content {
+    width: 90%;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+/* Horizontal line styling */
+hr {
+    margin: 20px 0;
+    border: 1px solid #000;
+}
+
+/* Form styling */
+.menu-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.menu-form label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-form input,
+.menu-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.menu-form .toppings {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.menu-form .topping-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.menu-form .topping {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+/* Button styling */
+button {
+    padding: 10px;
+    background: #dfa167;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+button:hover {
+    background: #bf8b57;
+}
+button a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+button a:hover {
+    text-decoration: none;
+}
+/* Image styling */
+figure {
+    margin: 20px 0;
+}
+figure img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
